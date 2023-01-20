@@ -1539,9 +1539,6 @@ export const LiveReload =
         nonce = undefined,
       }: {
         port?: number;
-        /**
-         * @deprecated this property is no longer relevant.
-         */
         nonce?: string;
       }) {
         let js = String.raw;
